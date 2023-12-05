@@ -1,26 +1,27 @@
 <html>
+<!--page depicts new product-->
 	<head>
-	<title>New Product</title>
+		<title>New Product</title>
 	</head>
 	<body>
 		<h1><strong>Awesome New Product</strong></h1>
-		<img src="https://blob.sololearn.com/courses/np.png">
+		<img src="<!--Place new image here-->">
 		<p>Introducting our <b>new product</b>, New Awesome Product</p>
 		<h3>Features</h3>
-		<ol>
-			<li>Necessary Features</li>
-				<ul>
-					<li>Bold</li>
-					<li>New</li>
-					<li>Fantastic</li>
-				</ul>
-			<li>Fancy Features</li>
-				<ul>
-					<li>Pretty</li>
-					<li>Organized</li>
-					<li>Special</li>
-				</ul>
-		</ol>
+			<ol>
+				<li>Necessary Features</li>
+					<ul>
+						<li>Bold</li>
+						<li>New</li>
+						<li>Fantastic</li>
+					</ul>
+				<li>Fancy Features</li>
+					<ul>
+						<li>Pretty</li>
+						<li>Organized</li>
+						<li>Special</li>
+					</ul>
+			</ol>
 		<h2><strong>Order Now!</strong></h2>
 <!--the below section was previously deleted off of SoloLearn from some type of coding error. Below section is a drop down menu for order form.-->
 		<form>
@@ -48,13 +49,12 @@
 				<br />
 <!--the below section was hard as hell to code. placeholder will do a greyed out example. theres another code from previous examples that will do the same thing.the label for indicators and id/name need more practice later. make mental note. Anywho section will create two lines for name and email with a submit button.-->
 			<label for="Name:"> Name:</label>
-			<input type= "text"text id= "Name:" name="name"placeholder="John Doe">
+				<input type= "text"text id= "Name:" name="name"placeholder="John Doe">
 				<br />
 			<label for="email"> Email:</label>
-			<input type= "email" id="email" name="email"  placeholder="user@email.com">
-			<br />
-			<input type= Submit>
+				<input type= "email" id="email" name="email"  placeholder="user@email.com">
+				<br />
+				<input type= Submit>
 		</form>
 	</body>
-<!--page depicts new product-->
 </html>
