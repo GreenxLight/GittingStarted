@@ -1,5 +1,10 @@
 <html>
 <!--page depicts new product-->
+	<header>
+		<!--header information-->
+	</header>
+	<main>
+		<!--main content-->
 	<head>
 		<title>New Product</title>
 	</head>
@@ -56,5 +61,9 @@
 				<br />
 				<input type= Submit>
 		</form>
+	</main>
+	<footer>
+		<!--footer information-->
+	</footer>
 	</body>
 </html>
